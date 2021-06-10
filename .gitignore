@@ -1,0 +1,17 @@
+*
+!*/
+!*.*
+!Dockerfile
+coverage.out
+application.log
+**/*config*.json
+**/*firebase*.json
+*.pem
+**/.idea
+*.log
+**/*config.toml
+**/*.cnf
+.DS_Store
+scripts/vault/file
+**/*service-account-key.json
+id_rsa

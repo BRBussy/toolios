@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/BRBussy/toolios/internal/pkg/logs"
+)
 
 func main() {
-	fmt.Println("yes")
+	logs.Setup(nil)
 }

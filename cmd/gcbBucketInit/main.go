@@ -22,7 +22,9 @@ func main() {
 	if _, err := storage.NewGCSProvider(
 		ctx,
 		bucketName,
-		map[string]bool{},
+		map[string]bool{
+			"http://localhost:3000": true,
+		},
 	); err != nil {
 		log.Fatal().Err(err).Msg("error constructing storage provider")
 	}

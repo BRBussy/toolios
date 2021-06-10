@@ -5,7 +5,7 @@
 coverage.out
 application.log
 **/*config*.json
-**/*firebase*.json
+*.json
 *.pem
 **/.idea
 *.log
